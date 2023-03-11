@@ -24,8 +24,10 @@ h2{
     }
 
 .float-child {
+
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     justify-content: center;
+    align-items: center;
     width: 30%;
     height:100%;
     float: left;
