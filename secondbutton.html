@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConverttoDollar</title>
+</head>
+<body>
+
+    <h2>This example  Convert currency from króna Icelandic to Dollar:</h2>
+    
+
+    <section>
+       <input type="text" id="num1">
+        <button id="convButton"> ConverttoDollar </button>
+    </section>
+
+    <script>
+
+        let number = [700, 800, 900];
+
+
+        function Amount(k) {
+            return (k/141.28);
+        }
+
+        function converttoDollar() {
+            var k = Number(document.getElementById('num1').value);
+            var c = (k/141.28).toFixed(2);
+            number.push(c);
+           
+
+            console.log("This is exatcly $" + c + " US dollars");
+            console.log(number);
+            
+
+        }
+
+        document.getElementById('convButton').addEventListener('click',converttoDollar)
+
+    </script>
+
+    
+</body>
+</html>
