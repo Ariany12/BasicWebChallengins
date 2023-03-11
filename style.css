@@ -1,32 +1,43 @@
 body{ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 h1{
-    text-align: center;
+    font-size: x-large;
+    text-align: center; 
     filter:uppercase;
 }
 
-p {
+p{
     font-size: large;
-    box-sizing: border-box;
-    padding: 20px;
-    border: 5px solid gray;
-    margin: 0;
-    
-  }
+    text-align: left; 
+    filter:uppercase;
+}
 
-  .myDiv{
-    
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  width: 100%;
-  border: 5px solid grey;
-  margin: 2em 0;
-  font-size: large;
-  }
+h2{
+    font-size: x-large;
+    text-align: center; 
+    filter:uppercase;
+}
+
+
+  .float-container {
+    border: 3px solid #fff;
+    padding: 20px;
+    }
+
+.float-child {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
+    width: 30%;
+    height:100%;
+    float: left;
+    padding: 10px;
+    border: 5px solid grey;
+    }
 
   img {
-    display: block;
+    display: block; 
     margin-left: auto;
     margin-right: auto;
+    height: auto;
+    width: auto;
+   
   }
