@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <script src="script.js" defer></script>
+    </head>
 <body>
 
 <h2>JavaScript Functions</h2>
@@ -7,26 +10,6 @@
 <p>This example calls a ConverttoDollar function to convert from króna Icelandic to Dollar:</p>
 <p id="demo"></p>
 <p> Inside function also push the amount of króna provide by user into the number array</p>
-<script>
-
-  let number = [700, 800, 900];
-
-  function ConverttoDollar(k) {
-
-  number.push(k);
-  console.log(number);
-  return (k/141.28);
-
-}
-document.getElementById("demo").innerHTML = ConverttoDollar(150);
-document.getElementById("demo").innerHTML = ConverttoDollar(300);
-document.getElementById("demo").innerHTML = ConverttoDollar(450);
-document.getElementById("demo").innerHTML = ConverttoDollar(600);
-
-
-
-
-</script>
 
 </body>
 </html>
